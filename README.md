@@ -5,14 +5,14 @@ Only the owner edits her file. `Camel.java` is shared: change it only after tell
 
 | File | Owner | What it does |
 |---|---|---|
-| `Camel.java` | Judy (shared) | Holds one camel record (7 fields + score) |
+| `Camel.java` | (shared) | Holds one camel record (7 fields + score) |
 | `CamelLinkedList.java` | Judy | Our own linked list: addLast, size, search, delete, toArray |
 | `Main.java` | Judy | Runs everything in order, timings, search/delete demo |
-| `InputReader.java` | Part 2 | Reads + validates Input.txt, writes Errors.txt, builds the list |
-| `Scorer.java` | Part 2 | Calculates the Seeding Score |
-| `OutputWriter.java` | Part 2 | Writes camels to a file (Output.txt + 4 sorted files) |
-| `Sorter.java` | Part 3 | Selection, Insertion, Merge, Quick sort + tie-break |
-| `Benchmark.java` | Part 3 | Times the 4 sorts on the 1k–40k files (avg of 5 runs) |
+| `InputReader.java` | Lanah | Reads + validates Input.txt, writes Errors.txt, builds the list |
+| `Scorer.java` | Lanah | Calculates the Seeding Score |
+| `OutputWriter.java` | Lanah | Writes camels to a file (Output.txt + 4 sorted files) |
+| `Sorter.java` | Seba | Selection, Insertion, Merge, Quick sort + tie-break |
+| `Benchmark.java` | Seba | Times the 4 sorts on the 1k–40k files (avg of 5 runs) |
 
 ## The agreed method names (don't rename them)
 ```java
