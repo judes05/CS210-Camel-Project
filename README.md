@@ -5,9 +5,9 @@ Only the owner edits her file. `Camel.java` is shared: change it only after tell
 
 | File | Owner | What it does |
 |---|---|---|
-| `Camel.java` | Part 1 (shared) | Holds one camel record (7 fields + score) |
-| `CamelLinkedList.java` | Part 1 | Our own linked list: addLast, size, search, delete, toArray |
-| `Main.java` | Part 1 | Runs everything in order, timings, search/delete demo |
+| `Camel.java` | Judy (shared) | Holds one camel record (7 fields + score) |
+| `CamelLinkedList.java` | Judy | Our own linked list: addLast, size, search, delete, toArray |
+| `Main.java` | Judy | Runs everything in order, timings, search/delete demo |
 | `InputReader.java` | Part 2 | Reads + validates Input.txt, writes Errors.txt, builds the list |
 | `Scorer.java` | Part 2 | Calculates the Seeding Score |
 | `OutputWriter.java` | Part 2 | Writes camels to a file (Output.txt + 4 sorted files) |
