@@ -1,0 +1,24 @@
+line 34: CM-7827A;A;35.3;2029;2;KWT; ->  wrong number of fields
+line 97: CM-8646W;W;48.1;2031;1;TA;-1.7; -> invalid stables code
+line 280: CM-3048H;H;34.6;20X7;5;KWT;-26.1; -> a number field is not a number
+line 537: CM-7956M;M;abc;2026;4;NJR;21.3; -> a number field is not a number
+line 544: CM-5957M;M;105.3;2028;2;TBK;-11.5; -> win rate out of range
+line 638: CM-3743M;M;52.5;2028;3;QAT;3.3;EXTRA; ->  wrong number of fields
+line 663: CM-7536A;A;-4.0;2026;1;RIY;3.5; -> win rate out of range
+line 704: CM-5916H;X;81.1;2028;2;UAE;4.4; -> invalid breed code
+line 711: CM-41290A;A;45.1;2028;5;TBK;-7.6; -> invalid camel ID
+line 774: CM-8478H;H;49.1;2019;3;UAE;-5.3; -> target year out of range
+line 814: CM-4136W;B;70.2;2028;2;TAF;-10.5; -> invalid breed code
+line 882: CM4129A;A;50.1;2027;3;KWT;-23.6; -> invalid camel ID
+line 924: CM-412A;H;93.7;2027;1;JED;22.7; -> invalid camel ID
+line 1032: CM-9407W;W;56.4;2029;5;T4F;-3.8; -> invalid stables code
+line 1077: CM-3268W;W;84.4;2030;3;RIY;-150.0; -> speed variation out of range
+line 1770: CM-3835A;A;80.9;2027;2;MED;120.5; -> speed variation out of range
+line 2100: CM-3802M;M;55.4;2028;7;TAF;-9.3; -> heritage rating out of range
+line 2413: CM-9970W;W;64.0;2025;4;QAT;-2.2; -> target year out of range
+line 2480: CM-6465M;M;56.3;2028;2;OMN; ->  wrong number of fields
+line 2568: CM-4357H;H;0.0;2028;3;RIY;fast; -> a number field is not a number
+line 2631: CM-3063A;Z;26.2;2028;5;OMN;11.5; -> invalid breed code
+line 2637: CM-0969A;A;12.0;2033;0;UAE;16.1; -> heritage rating out of range
+line 2753: CM-4638M;M;36.5;2026;6;TBK;-6.3; -> heritage rating out of range
+line 2898: CM-5562H;H;37.3;2026;3;RIYD;25.5; -> invalid stables code

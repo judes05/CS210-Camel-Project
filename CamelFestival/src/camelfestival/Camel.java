@@ -1,9 +1,5 @@
 package camelfestival;
 
-/**
- * Camel - holds ONE camel record (one valid line of the input file).
- * Shared by the whole group. Do not change without telling everyone.
- */
 public class Camel {
 
     // The 7 fields from the input line
@@ -20,7 +16,7 @@ public class Camel {
 
     // Constructor: creates a camel from the 7 values of a valid line
     public Camel(String camelId, char breedCode, double winRate, int targetYear,
-                 int heritageRating, String stablesCode, double speedVariation) {
+            int heritageRating, String stablesCode, double speedVariation) {
         this.camelId = camelId;
         this.breedCode = breedCode;
         this.winRate = winRate;
@@ -32,14 +28,37 @@ public class Camel {
     }
 
     // Getters: let other classes READ the fields
-    public String getCamelId()        { return camelId; }
-    public char getBreedCode()        { return breedCode; }
-    public double getWinRate()        { return winRate; }
-    public int getTargetYear()        { return targetYear; }
-    public int getHeritageRating()    { return heritageRating; }
-    public String getStablesCode()    { return stablesCode; }
-    public double getSpeedVariation() { return speedVariation; }
-    public int getScore()             { return score; }
+    public String getCamelId() {
+        return camelId;
+    }
+
+    public char getBreedCode() {
+        return breedCode;
+    }
+
+    public double getWinRate() {
+        return winRate;
+    }
+
+    public int getTargetYear() {
+        return targetYear;
+    }
+
+    public int getHeritageRating() {
+        return heritageRating;
+    }
+
+    public String getStablesCode() {
+        return stablesCode;
+    }
+
+    public double getSpeedVariation() {
+        return speedVariation;
+    }
+
+    public int getScore() {
+        return score;
+    }
 
     // Setter: only the score changes after the camel is created
     public void setScore(int score) {

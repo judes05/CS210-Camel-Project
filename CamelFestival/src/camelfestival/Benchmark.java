@@ -1,12 +1,5 @@
-
 package camelfestival;
 
-/**
- * Benchmark - times the 4 sorts (all BY_SCORE) on Input_1k .. Input_40k.
- * Each time = average of 5 runs. Each run sorts a FRESH unsorted copy.
- * Writes NO output files. Run this file separately from Main.
- * OWNER: Part 3
- */
 public class Benchmark {
 
     private static final int RUNS = 5;
@@ -71,8 +64,8 @@ public class Benchmark {
                     totalTime += (end - start);
                 }
 
-                double averageMillis =
-                        (totalTime / (double) RUNS) / 1_000_000.0;
+                double averageMillis
+                        = (totalTime / (double) RUNS) / 1_000_000.0;
 
                 System.out.printf("%s: %.3f ms%n",
                         sortNames[sort], averageMillis);
