@@ -7,15 +7,19 @@ package camelfestival;
 public class Main {
 
     public static void main(String[] args) {
-        // 1. READ:    list = InputReader.readFile("Input.txt", "Errors.txt")   (time it)
-        // 2. PROCESS: for each camel in list.toArray(): setScore(Scorer.calculateScore(camel))   (time it)
-        // 3. WRITE:   OutputWriter.writeFile(list.toArray(), "Output.txt")   (time it)
-        // 4. SORT:    4 times: arr = list.toArray(); time the sort; write the Sorted_Output file
-        //             Selection BY_SCORE    -> Sorted_Output_SS.txt
-        //             Insertion BY_WIN_RATE -> Sorted_Output_IS.txt
-        //             Merge     BY_HERITAGE -> Sorted_Output_MS.txt
-        //             Quick     BY_SPEED    -> Sorted_Output_QS.txt
-        // 5. DEMO:    search 3 IDs (1 fake), print size, delete 1, print size
-        // 6. Print all 7 timings
+    CamelLinkedList list = new CamelLinkedList();
+list.addLast(new Camel("CM-0001A", 'A', 50.0, 2026, 3, "KSA", 0.0));
+list.addLast(new Camel("CM-0002M", 'M', 60.0, 2027, 4, "TAF", 5.0));
+list.addLast(new Camel("CM-0003W", 'W', 70.0, 2028, 5, "RIY", -5.0));
+
+System.out.println("Size: " + list.size());        // 3
+System.out.println(list.search("CM-0002M"));      // the CM-0002M line
+System.out.println(list.search("CM-9999X"));      // null
+System.out.println(list.delete("CM-0003W"));      // true  (deleting the LAST wagon)
+System.out.println("Size: " + list.size());        // 2
+list.addLast(new Camel("CM-0004H", 'H', 80.0, 2029, 2, "OMN", 1.0));
+for (Camel c : list.toArray()) {
+    System.out.println(c);                         // 0001, 0002, 0004
+}
     }
 }
